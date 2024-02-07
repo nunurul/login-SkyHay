@@ -1,0 +1,154 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.background-img {
+  flex: 1 1 50%;
+  background-image: url("/img/tom-barrett-2t60-JYQ5pk-unsplash\ \(1\).jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -150px;
+}
+
+.background-text {
+  flex: 1 1 50%;
+  padding: 32px 60px;
+}
+
+.background-text .title-img {
+  width: 40px;
+  margin-bottom: 32px;
+}
+
+.title-login {
+  margin-bottom: 48px;
+}
+
+.title-login h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 8px;
+}
+
+.title-login p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #d1d5d8;
+}
+
+.input-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  border-bottom: 1px solid #747474;
+  padding-bottom: 10px;
+  color: #747474;
+}
+
+.input-text input {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 12px;
+  color: #222;
+}
+
+.input-text input::placeholder {
+  color: #747474;
+}
+
+.input-text:focus-within {
+  border-bottom: 1px solid #222;
+  color: #222;
+}
+
+.forgot-password {
+  margin-top: 18px;
+  text-align: right;
+  font-size: 10px;
+  font-weight: 600;
+  color: #686868;
+  cursor: pointer;
+}
+
+.btn-box {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-box button {
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 4px 14px 0 #00000025;
+  font-weight: 500;
+}
+
+.btn-login {
+  background-color: #222;
+  color: #fff;
+  padding: 16px;
+}
+
+.btn-login:hover {
+  background-color: #000;
+}
+
+.or-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.or-line hr {
+  width: 240px;
+}
+
+.or-line span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #747474;
+}
+
+.btn-google {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn-google:hover {
+  background-color: #ececec;
+}
+
+.btn-google img {
+  width: 20px;
+  padding: 12px 0;
+}
+
+.account-user {
+  margin-top: 32px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #222;
+}
+
+.account-user .text-bold {
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
